@@ -328,4 +328,3 @@ resource "aws_lambda_function" "lambda" {
   runtime = "python3.8"
   role = aws_iam_role.lambda_role.id
 }
-test
